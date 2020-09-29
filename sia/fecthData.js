@@ -3,7 +3,7 @@ let = $accordion = document.getElementById("accordion");
 let ciaData = null;
 
 fetch(
-  "./cia.json"
+  "/cia.json"
 )
   .then((response) => {
     return response.json();
